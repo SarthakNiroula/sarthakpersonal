@@ -1,0 +1,572 @@
+<html>
+<head>
+<title> </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  margin:0;
+  padding:0;
+  font-family:century gothic;
+    scroll-behavior: smooth;}
+
+
+.name {
+       font-size:30px;
+       color:black;
+       border:solid transparent;
+       position:absolute;
+       background: #f1f1f1;
+       border-radius:10px;
+       margin:1 130;
+       border-bottom:dashed;
+       max-width: 220px;
+       padding:4;
+       z-index: 2;
+       transition:all .9s ease 0s;
+      
+       }
+
+.name:hover{
+           background:#555;
+           color:white;
+           cursor:pointer;
+           transition:0.1 ease;
+           }
+.nav {
+     
+    
+   
+  
+    margin-left: 850px;
+    margin-top: 15px;
+
+  
+
+     }
+
+
+#one{
+  display:inline;
+  margin:10;
+  border:solid transparent;
+  background:blue;
+    border-radius:20px;
+    padding:10;
+   
+    
+  }
+
+
+
+
+
+
+#two{
+  display:inline;
+  margin:10;
+  border:solid transparent;
+    border-radius:20px;
+  background:black;
+  padding:10;
+  transition:all .5s ease 0s;
+
+  }
+
+#two:hover{
+   
+    background:Blue;
+  
+     }
+
+#three{
+  display:inline;
+  margin:10;
+  border:solid transparent;
+  border-radius:20px;
+  background:black;
+  padding:9;
+  transition:all .5s ease 0s;
+  }
+
+#three:hover{
+   
+    background:blue;}
+
+    #four{
+  display:inline;
+  margin:10;
+  border:solid transparent;
+  border-radius:20px;
+  background:black;
+  padding:9;
+  transition:all .5s ease 0s;
+  }
+
+#four:hover{
+   
+    background:blue;}
+
+ul, li, a {
+      color:white;
+      
+      text-decoration:None;}
+
+.yep{
+   background-color:#595959;
+   height:408px;
+   margin-top:20px;
+   margin-left:130px;
+   margin-right:130px;
+  }
+ .yep p {
+       width:370px;
+       text-align:center;
+       margin-left:160px;
+       padding-top:110px;
+      font-size:23px;
+       color:red;
+       font-weight:bold;
+       color:white;
+      
+      }
+
+
+ .yep img{
+        width:330px;
+      height:400px; 
+      float:right;
+       padding-right:80px;
+      margin-top:5px;
+   
+
+       
+     }
+
+.no{	
+   background:green;
+   
+   height:83;
+
+   
+   }
+.no img{
+      height:80px;
+       width:80px;
+       position:absolute;
+       border:solid transparent;
+       border-radius:50px;
+       margin-left:30px;
+       margin-top:2px;}
+ 
+.up{
+   background-image:url("ok.jpg");
+
+   background-position: top;
+   background-size: cover;
+   height:408px;
+   margin-top:30px;
+   margin-left:130px;
+   margin-right:130px;
+  }
+.UP p{
+   text-align:center;
+   font-weight:bold;
+   font-size:40px;
+   padding-top:140px;
+   color:white;
+   cursor: pointer;}
+
+
+   .photo{
+   	 background-color: #ff6666;
+   	 background-position: left;
+   	 background-size: cover;
+   	 height: 1100px;
+   	   margin-top:30px;
+   margin-left:130px;
+   margin-right:130px;
+   }
+
+   .photo h1{
+     color:white;
+     text-align: center;
+     text-decoration: underline;
+     text-decoration-color: skyblue;
+   	 margin-bottom: 50px;
+
+   }
+
+   #s{
+    margin: 5px;
+   	border: dotted green;
+   	border-radius: 200px;
+   	box-sizing: border-box;
+   	display: inline;
+   	margin-bottom: 80px;
+   	cursor: pointer;
+   	 transition: 0.5s;
+
+   }
+
+
+   #s:hover{
+   	 transform:scale(1.07);
+   }
+
+   #r{
+    margin: 5px;
+   	border: dotted green;
+   	border-radius: 200px;
+  	box-sizing: border-box;
+   	display: inline;
+   	margin-bottom: 70px;
+   	cursor: pointer;
+    transition:0.5s;
+   }
+
+   #r:hover{
+   	  transform: scale(0.9);
+   }
+
+   .photo .word{
+   	 color:white;
+   	 text-align: center;
+   	 font-size: 30px;
+   	 font-weight: bold;
+   	 text-decoration: underline;
+   	 text-decoration-color: skyblue;
+   } 
+
+
+
+
+
+
+.last{
+   
+   background-color:#595959;
+   height:308px;
+   margin-top:20px;
+   margin-left:130px;
+   margin-right:130px;
+  }
+
+.last p{
+   text-align:center;
+   color:white;
+   font-size:30px;
+   font-weight:bold;
+   padding-bottom:80px;
+   padding-top:15px;
+   }
+
+
+
+.fb{
+              font-size:40px;
+              margin :160px;
+              margin-top:100px;
+               display:inline;
+               transition:all .5s ease 0s;}
+
+.fb:hover{
+       background:red;}
+.in{
+              font-size:40px;
+              margin:160px;
+              margin-top:100px;
+              display:inline;
+              transition:all .5s ease 0s;
+              }
+
+.in:hover{
+       background:red;}
+
+.go{
+              font-size:40px;
+              margin:160px;
+              margin-top:100px;
+                display:inline;
+               transition:all .5s ease 0s;}
+.go:hover{
+       background:red;}
+.text{
+    margin-left:50px;
+    padding:20px;
+    font-size:20px;
+    font-weight:bold;
+    color:white;}
+
+
+
+.text a{
+      cursor:pointer;
+      color:white;
+       }
+
+.text a:hover{
+            text-decoration: underline;
+        text-decoration-color: skyblue;
+  }
+      
+.footer{
+    background:skyblue;
+    height:40px;}
+.footer p {
+     text-align:center;
+     font-size:25px;
+     color:red;}
+
+.footer p a {
+      
+       color:red;}
+
+.footer p a:hover {
+       background:white;
+       color:black;}
+
+ .but{
+ 	margin-left: 90%;
+ 	margin-top: 40%;
+ 	padding: 0px;
+ 	position: fixed;
+
+ }  
+
+ .but img{
+ 
+ }    
+
+.but::active{
+ background:pink;
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+
+
+ * {
+  margin:0px;
+  padding:0px;
+  font-family:century gothic;
+    scroll-behavior: smooth;}
+
+.no{	
+   background-color:unset;}
+   
+   
+.no img{
+      height:70px;
+       width:70px;
+       margin:0px;
+       position:fixed;
+       border:solid transparent;
+       border-radius:40px;
+       
+       }
+
+
+.name {
+       font-size:20px;
+       color:black;
+       border:solid transparent;
+       position:fixed;
+       background: #f1f1f1;
+       border-radius:10px;
+       margin-left:80px;
+       border-bottom:dashed;
+       
+       padding:1;
+       transition:all .9s ease 0s;
+      
+       }
+
+.name:hover{
+           background:#555;
+           color:white;
+           cursor:pointer;
+           transition:0.1 ease;
+           }
+
+
+.up{
+    margin:0px;
+    width:100%;
+    background-position:cover;
+    height:100px;
+   
+  }
+.UP p{
+   text-align:center;
+   font-weight:bold;
+   font-size:30px;
+   padding-top:160px;
+   color:white;
+   cursor: pointer;}
+
+
+
+.yep{
+   background-color:#595959;
+   height:408px;
+   margin-top:20px;
+   margin-left:70px;
+   margin-right:70px;
+  }
+
+
+
+
+
+ .yep p {
+       width:255px;
+     
+       margin-left:20px;
+       margin-top:0px;
+      padding:0px;
+      padding-top:50px;
+      font-size:23px;
+      
+       
+       color:white;
+      
+      }
+
+
+ .yep img{
+          
+         width:250px;
+         height:340px;
+        position:absolute;
+        margin-left:300px;
+       margin-top:30px;
+      
+ }
+
+ .photo{
+   	 background-color: #ff6666;
+   	 background-position: left;
+   	 background-size: cover;
+   	 height: 2600px;
+   	   margin-top:30px;
+            margin-left:70px;
+           margin-right:70px;
+   }
+
+ #s{
+    margin-left: 100px;
+   
+   	border: dotted black;
+   	border-radius: 200px;
+   	box-sizing: border-box;
+   	
+   	margin-bottom: 20px;
+   	cursor: pointer;
+   	
+
+   }
+
+
+
+
+   #r{
+        margin-left: 100px;
+   	border: dotted black;
+   	border-radius: 200px;
+  	box-sizing: border-box;
+   	
+   	margin-bottom: 20px;
+   	cursor: pointer;
+   
+   }
+
+
+
+
+  
+}
+
+
+
+
+
+
+</style>
+
+</head>
+<body bgcolor="#d9d9d9">
+<div class="no" id="no">
+<div class="but">	
+<a href="#no"><img src="up.jpg" width="5px" height="5px">
+</div>	
+<a href="#"><img src="sr.jpg"></a>
+<div class="name">Sarthak Niroula</div>
+
+<br>
+<div class="nav">
+<ul>
+<li id="one"> <a href="#">Home</a></li>
+<li id="two"> <a href="#about"> About</a></li>
+<li id="four"> <a href="#photo"> Photos</a></li>
+<li id="three"> <a href="#fb">Contact</a> </li>
+</ul>
+</div>
+</div>
+
+<div class="up"><P>HELLO GUYZ !!<BR> WELCOME ON MY WEBSITE</P></div>
+
+<div class="yep" id="about"><img src="co.jpg"> <p> Hello there. It's me Sarthak. I am currently reading in class 10 and interested in designing websites and games.
+I am just a beginner . Many more to go .<br>
+Go on coding !!!</p> 
+ <br> 
+ 
+</div>
+
+
+<div class="photo" id="photo">
+
+	<h1>Edited photos</h1>
+<div class="first"> 
+<a href="three.jpg">	
+<img id="s" src="three.jpg" width="350px" height="400px"></a>
+<a href="one.jpg">
+<img id="s"  src="one.jpg" width="350px" height="400px"></a>
+<a href="two.jpg">
+<img id="s" src="two.jpg" width="350px" height="390px"></a>
+
+<div class=" word">Haha! Dont have better than these</div>
+<br>
+<a href="four.jpg">
+<img id="r"  src="four.jpg" width="350px" height="360px"></a>
+<a href="five.jpg">
+<img  id="r" src="five.jpg" width="350px" height="400px"></a>
+<a href="six.jpg">
+<img  id="r" src="six.jpg" width="350px" height="360px"></a>
+</div>
+</div>
+
+
+<div class="last"><p>Want to Follow me on social media?</p>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="fb"><a href="https://www.facebook.com/profile.php?id=100036376145062" target="_blank"><i class="fa fa-facebook-f" id="fb"></i></a></div>
+
+<div class="in"><a href="https://www.instagram.com/sarthakniroula/" class="fa fa-instagram" target="_blank" ></a></div>
+
+<div class="go"><a href="#" class="fa fa-google" ></a></div>
+
+<div class="text">
+Facebook : <a href="https://www.facebook.com/profile.php?id=100036376145062" target="_blank" >Sarthak Niroula</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+Instagram : <a href="https://www.instagram.com/sarthakniroula/" target="_blank" >Sarthak Niroula</a>&nbsp; &nbsp; 
+Gmail:<a href="#"> sarthak.niroula11@gmail.com</a>
+</div>
+
+</div>
+<div class= "footer"><p>All right reserved. Copyright:<a href="https://www.facebook.com/profile.php?id=100036376145062" target="_blank"> Sarthak Niroula</a></p> </div>
+
+
+</body>
+</html>
